@@ -1,0 +1,17 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "data": {
+       "url": "https://raw.githubusercontent.com/garcil/garcil.github.io/main/onsinflation.csv"},
+
+    "title": {"text": "UK Productivity 1960-2023"},
+
+    "width":300,
+    "height":300,
+
+    "mark":{"type": "line","color":"red"},
+ 
+    "encoding": {
+      "x": {"field": "Year","type": "temporal"},
+      "y": {"field": "Value","type": "quantitative"}
+    }
+}
